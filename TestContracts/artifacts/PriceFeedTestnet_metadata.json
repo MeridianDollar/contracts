@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.6.11+commit.5ef660b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_lastGoodPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "LastGoodPriceUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "fetchPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "setPrice",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contracts/TestContracts/PriceFeedTestnet.sol": "PriceFeedTestnet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contracts/Interfaces/IPriceFeed.sol": {
+			"keccak256": "0x8addf8adace4b531698302a46cc65d357ef4302aea661502263420e931318172",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0054616ceb3db586a38f205e807c0724752d6d172b34299b9acdcfefdb8fffaf",
+				"dweb:/ipfs/QmY9BPjvfui1ReXjrTb4wYrCzZXNow7xqkqZyPG1eHUB4i"
+			]
+		},
+		"contracts/contracts/TestContracts/PriceFeedTestnet.sol": {
+			"keccak256": "0x71dbe85edb7f8d80b88adf7b953b1afd9c011985ce31efab27f89d1844f2b334",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47ee4f3668cc1aa72a7dfe77379e82654aea3d88c41637c26ca73b356a1654a6",
+				"dweb:/ipfs/QmUiaMt6EjeEvxAQfRnbtTuXNJ5xdpRYxPWWD2xxqVep4m"
+			]
+		}
+	},
+	"version": 1
+}

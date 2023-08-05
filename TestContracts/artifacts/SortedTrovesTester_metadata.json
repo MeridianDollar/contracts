@@ -1,0 +1,179 @@
+{
+	"compiler": {
+		"version": "0.6.11+commit.5ef660b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "getCurrentICR",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getNominalICR",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_id",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_NICR",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_prevId",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_nextId",
+						"type": "address"
+					}
+				],
+				"name": "insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_id",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newNICR",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_prevId",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_nextId",
+						"type": "address"
+					}
+				],
+				"name": "reInsert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_id",
+						"type": "address"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sortedTrovesAddress",
+						"type": "address"
+					}
+				],
+				"name": "setSortedTroves",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contracts/TestContracts/SortedTrovesTester.sol": "SortedTrovesTester"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contracts/Interfaces/ISortedTroves.sol": {
+			"keccak256": "0xb8bad0e1f0e224ba2f664d238528d9175a2e3d733b2ea828a531f6f4047173e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5da7a029328586397067abf1186287a74da4d28a7dd7bc5c2324556b7ca6d521",
+				"dweb:/ipfs/QmRVpaLNZ8mUC8FeP9WeizZ54Ucgz9td57MdcyBSJ2uGBY"
+			]
+		},
+		"contracts/contracts/TestContracts/SortedTrovesTester.sol": {
+			"keccak256": "0x2c5877c9c43646c73097ea55a17ebfc93e75f838d7c00e9ef2f33701ebb7dc39",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9eb2ef51b517b6df1a1fcd74784c98717da783d52a6a8da32c5064e2f107e0d8",
+				"dweb:/ipfs/QmXQGZqSHS8z2vQ5xYn86T1NJi6UxJbFJR1Qaj9Ps5mmso"
+			]
+		}
+	},
+	"version": 1
+}
